@@ -1,22 +1,17 @@
-import logo from "./logo.svg";
-import "./App.css";
 import "./output.css";
+import Card from "./components/Card";
+import WebFont from "webfontloader";
+
+WebFont.load({
+  google: {
+    families: ["Figtree:ital,wght@0,300..900;1,300..900&display=swap"],
+  },
+});
 
 function App() {
   return (
-    <body className=" bg-[#F4D04E] h-screen">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p className="text-pink-500">
-        Hello <code>src/App.js</code> and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
+    <body className=" bg-background-yellow h-screen flex justify-center items-center font-Figtree tracking-wide p-6">
+      <Card />
     </body>
   );
 }
