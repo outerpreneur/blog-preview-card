@@ -17,8 +17,8 @@ export default function Content() {
           content, and presentation.
         </p>
       </div>
-      <div className="flex gap-2">
-        <img className="w-6" src={imageAvatar} alt="avatar" />
+      <div className="flex gap-2 items-center">
+        <img className="w-8" src={imageAvatar} alt="avatar" />
         <span className="font-black">Greg Hooper</span>
       </div>
     </main>
