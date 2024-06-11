@@ -3,8 +3,8 @@ import imageAvatar from "/Users/test/My Drive/Developer/Frontend mentor/blog-pre
 
 export default function Content() {
   return (
-    <main className="">
-      <div className="">
+    <main>
+      <div>
         <span className="bg-background-yellow py-1 px-3 font-bold rounded-lg mb-3 inline-block">
           Learning
         </span>
@@ -18,7 +18,7 @@ export default function Content() {
         </p>
       </div>
       <div className="flex gap-2">
-        <img className="w-6" src={imageAvatar} alt="placeholder" />
+        <img className="w-6" src={imageAvatar} alt="avatar" />
         <span className="font-black">Greg Hooper</span>
       </div>
     </main>
